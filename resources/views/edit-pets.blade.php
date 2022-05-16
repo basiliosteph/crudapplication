@@ -31,7 +31,7 @@
             </div>
             <div class ="form-group">
                 <label> Owner Address </label>
-                <textarea classs="form-control" name="address" required>{{ $pet->getAddress() }}</textarea>
+                <textarea class="form-control" name="address" required>{{ $pet->getAddress() }}</textarea>
             </div>
             <button type="submit" class="btn btn-primary"> Save Changes </button>
           </form>
